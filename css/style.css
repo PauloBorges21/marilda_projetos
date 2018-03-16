@@ -52,9 +52,9 @@ p {
 
     text-align: center;
     color: #30C2FF;
-
-
 }
+
+
 
 .subtitulo {
     font-family: 'Lato';
@@ -507,6 +507,13 @@ figure.hover figcaption {
     border: 3px solid #E8900C;
     display: block;
     padding: 10px;
+}
+
+#email{
+    margin-left: -10px;
+    text-decoration: none;
+    color:#000;
+    border: 0px
 }
 
 .footer_redes ul li a:hover {
