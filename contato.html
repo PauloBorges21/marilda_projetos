@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title> Planeta Água Bela Vista - Contato</title>
+     <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/libs/modernizr.custom.45655.js"></script>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+        <img src="img/Folheto-planeta-agua.png" alt="Planeta Água Bela Vista">
+                </a>
+            <nav class="grid-12 header_menu">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <section class="introducao-interna introducao_contato">
+            <div class="container">
+                <h1>Contato</h1>
+
+                <p>"Tire suas dúvidas com a gente."</p>
+
+            </div>
+
+        </section>
+    </header>
+    <main class="container contato">
+
+<form action="enviar.php" method="post" name="form" class="formphp contato_form grid-8">
+			<label for="nome">Nome</label>
+			<input id="nome" name="nome" type="text">
+			<label for="email">E-mail</label>
+			<input id="email" name="email" type="text">
+			<label for="telefone">Telefone</label>
+			<input id="telefone" name="telefone" type="text">
+
+			<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+			<input type="text" class="nao-aparece" name="leaveblank">
+			<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+			<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+
+			<label for="mensagem">Mensagem</label>
+			<textarea name="mensagem" id="mensagem"></textarea>
+
+			<button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+		</form>
+
+<!--
+        <section class="quebra">
+
+        </section>
+-->
+
+
+    </main>
+    <section class="mapa container">
+
+        <div class="grid-10">
+
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.22757370787!2d-46.64498068502229!3d-23.560268784683412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b073526d5b%3A0x161b761cc75433bd!2sR.+Prof.+Sebasti%C3%A3o+Soares+de+Faria%2C+32+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01317-010!5e0!3m2!1spt-BR!2sbr!4v1521145053267" width="570" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+        </div>
+
+        <div class="grid-5 footer_contato footer_redes">
+            <h3>Contato</h3>
+            <ul>
+                <i class="sample fa fa-whatsapp size-2"></i><li>11 9 9916-6188 / 11 3284-6946</li>
+                <i class="sample2 fa fa-envelope-o"></i><li><a href="mailto:contato@planetaaguabelavista.com.br" id="contatoemail">contato@planetaaguabelavista</a></li>
+                <li>São Paulo - SP</li>
+            </ul>
+
+            <ul>
+                <li><a href="https://www.facebook.com/planetaaguasp/" target="_blank"><img src="img/redes-sociais/facebook.png"></a></li>
+                <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png"></a></li>
+                <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png"></a></li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Planeta Água Bela Vista 2018 - Alguns direitos reservados.</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- JavaScript -->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- JavaScript -->
+</body>
+
+
+</html>

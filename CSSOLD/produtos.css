@@ -1,0 +1,174 @@
+/*PRODUTOS*/
+
+.introducao_produtos {
+
+    background: url("../img/bg/beautiful-environment-lake-281000.png") no-repeat center;
+    background-size: cover;
+}
+
+.quote_clientes {
+    padding: .9em;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.quote_clientes p {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: .7em;
+}
+
+.quote_clientes cite {
+    padding-left: 9.1em;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.introducao_produtos h1 {
+    margin-top: .5em;
+    font-family: 'Sansita', sans-serif;
+    font-size: 48px;
+    text-shadow: 1px 1px #000000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.introducao_produtos h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    text-shadow: 1px 1px #000000;
+    margin: 10px auto 10px auto;
+
+}
+
+.introducao_produtos p {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.conteudo_loja h2 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+.conteudo_loja {
+    width: 100%;
+    padding: 1em 0;
+}
+
+.produto_item {
+    width: 100%;
+    background: #1c1c1c;
+}
+
+
+/*Plugin de Slide*/
+
+.rslides,
+.rslides_portfolio {
+
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+.rslides li,
+.rslides_portfolio li {
+
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child,
+.rslides_portfolio li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img,
+.rslides_portfolio img {
+    margin-top: 0.5em;
+    display: block;
+    height: auto;
+    width: 100%;
+    border: 0px;
+
+}
+
+.rslides_tabs {
+    text-align: center;
+
+}
+
+.rslides_tabs li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.rslides_tabs li a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    color: #1d1d1d;
+    border-radius: 20px;
+    overflow: hidden;
+    text-indent: -200px;
+}
+
+.rslides_tabs li a:hover,
+.rslides_tabs li.rslides_here a {
+    background: #E8900C;
+    color: #E8900C;
+}
+
+.portfolio_lista img {
+    padding-bottom: 1em;
+
+}
+
+/*Quebra Produto*/
+
+.quebra-produto {
+
+    background: #f5f5f5;
+    width: 100%;
+    height: 400px;
+    background: url("../img/pexels-photo-531428.jpeg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.quebra-produto p {
+    padding-top: 7em;
+}
+
+
+/*FINAL PRODUTOS*/

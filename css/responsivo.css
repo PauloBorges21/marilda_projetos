@@ -1,0 +1,117 @@
+/*Responsivo Header*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+
+/*Estilo para SmartPhone*/
+
+@media only screen and (max-width: 767px) {
+
+
+    /*    Header*/
+    .header {
+        position: relative;
+        padding-bottom: 0px;
+    }
+
+    .header img {
+
+        margin: 0 auto 0.6em 6em;
+    }
+
+    .header_menu {
+
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 5px;
+    }
+
+    .header_menu ul li a {
+        border: 4px solid #000;
+        display: block;
+        width: 135px;
+        float: left;
+    }
+
+
+
+    .header_menu ul li a:hover {
+        border-color: #47b2da;
+    }
+
+
+    /*    Indrodução*/
+    .introducao {
+
+        background: url("../img/bg/pexels-photo-841116_e.jpg") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        margin-top: 0px;
+        padding: 1em;
+
+    }
+    .introducao h1 {
+        font-size: 35px;
+        margin-top: 2em;
+    }
+
+    /*Introdução interna*/
+    .conteudo_loja {
+        padding: 0px;
+    }
+
+    .diferenciais {
+        text-align: center;
+    }
+
+    /*  Botão produto  */
+    .call {
+        padding-top: 1em;
+    }
+
+    /*  Imagem Quebra  */
+    .quebra {
+        margin: 1em;
+    }
+
+    /*  MAPA  */
+    .mapa iframe {
+        display: none;
+    }
+
+    .mapa {
+
+        background: url("../img/mapa.jpg") no-repeat center;
+        width: 360px;
+        height: 250px;
+        margin-left: 1em;
+        display: inline-block;
+    }
+
+
+    .footer_contato.footer_redes {
+
+        padding-top: 15em;
+
+    }
+
+
+
+    #contatoemail {
+        margin-left: -12px;
+    }
+
+    .copy {
+        margin-top: 2em;
+    }
+    .copy p {
+        margin-left: -27px;
+
+    }
+
+
+
+
+}
